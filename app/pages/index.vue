@@ -12,7 +12,7 @@
       variant="subtle"
     />
 
-    <NuxtImg src="/when.png" alt="When" sizes="100vw sm:50vw" />
+    <NuxtImg src="/when.png" alt="When" sizes="10vw" />
     <p class="flex flex-col text-left items-left">
       WHEN WE ALL FALL ASLEEP, <span>WHERE DO WE GO?</span>
     </p>
