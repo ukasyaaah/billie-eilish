@@ -2,7 +2,7 @@
 
 <template>
   <div
-    class="flex flex-col px-3 bg-black relative lg:flex-row lg:gap-x-10 min-h-screen text-2xl md:text-5xl lg:text-6xl text-white font-wwaf bg-bottom bg-cover selected-style justify-center items-center lg:mx-auto"
+    class="flex flex-col justify-center items-center bg-black text-white font-wwaf selected-style relative lg:flex-row lg:gap-x-10 min-h-screen text-2xl md:text-6xl lg:text-6xl"
   >
     <UButton
       class="absolute top-5 left-5"
@@ -12,8 +12,8 @@
       variant="subtle"
     />
 
-    <NuxtImg src="/when.png" alt="When" sizes="10vw" />
-    <p class="flex flex-col text-left items-left">
+    <NuxtImg src="/when.png" alt="wwafawdwg" sizes="1vw" />
+    <p class="flex flex-col">
       WHEN WE ALL FALL ASLEEP, <span>WHERE DO WE GO?</span>
     </p>
   </div>
