@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <div
     class="flex flex-col justify-center items-center bg-black text-white font-wwaf selected-style relative lg:flex-row lg:gap-x-10 min-h-screen text-2xl md:text-6xl lg:text-6xl"
