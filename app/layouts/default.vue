@@ -2,7 +2,7 @@
   <header>
     <slot name="header"></slot>
   </header>
-  <main>
+  <main class="font-sans">
     <slot name="about"></slot>
     <slot name="musics"></slot>
     <slot name="gallery"></slot>

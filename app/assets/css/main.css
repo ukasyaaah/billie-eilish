@@ -2,6 +2,7 @@
 @import "@nuxt/ui";
 
 @theme {
+  --font-sans: "Geist", system-ui, sans-serif;
   --font-wwaf: "wwaf", sans-serif;
 }
 @font-face {
@@ -20,4 +21,8 @@
 ::selection {
   color: white;
   background-color: black;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: white black;
 }
