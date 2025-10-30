@@ -10,6 +10,8 @@ useSeoMeta({
 </script>
 <template>
   <div>
-    <NuxtPage />
+    <UApp>
+      <NuxtPage  />
+    </UApp>
   </div>
 </template>
