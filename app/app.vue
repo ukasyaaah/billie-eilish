@@ -15,7 +15,7 @@ useSeoMeta({
         <Header />
       </template>
       <template #about>
-        <div class="bg-black px-20  py-5 lg:px-45">
+        <div class="bg-black px-5  py-5 lg:px-45">
           <UCard variant="outline">
             <template #header>
               <h1 class="font-wwaf text-2xl text-black md:text-4xl">
