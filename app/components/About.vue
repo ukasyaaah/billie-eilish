@@ -30,9 +30,7 @@ const links = ref<ButtonProps[]>([
       :links="links"
     >
       <NuxtImg
-        format="webp"
         src="/Billie210.webp"
-        loading="lazy"
         width="320"
         height="364"
         quality="100"
