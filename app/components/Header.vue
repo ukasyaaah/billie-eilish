@@ -10,7 +10,14 @@
       variant="subtle"
     />
 
-    <NuxtImg src="/when.png" alt="wwafawdwg" sizes="1vw" />
+    <NuxtImg
+      src="/when.png"
+      loading="eager"
+      width="300"
+      height="300"
+      alt="wwafawdwg"
+      quality="100"
+    />
     <p class="flex flex-col">
       WHEN WE ALL FALL ASLEEP, <span>WHERE DO WE GO?</span>
     </p>
