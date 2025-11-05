@@ -12,7 +12,6 @@
 
     <NuxtImg
       src="/when.png"
-      loading="eager"
       width="300"
       height="300"
       alt="wwafawdwg"
@@ -24,7 +23,7 @@
         base: 'bg-white hover:bg-white font-sans w-fit mt-5',
         label:' text-black'
       }"
-      to="/tracklist" size="lg" variant="soft" label="Check Out the TrackList" />
+      to="/tracklist" size="lg" variant="soft" label="Check Out the Tracklist" />
     </p>
   </div>
 </template>
