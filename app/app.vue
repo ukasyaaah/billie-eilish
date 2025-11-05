@@ -2,21 +2,14 @@
 useSeoMeta({
   title: "Billie Eilish",
   ogTitle: "Billie Eilish",
-  description: "This is my amazing site, let me tell you all about it.",
-  ogDescription: "This is my amazing site, let me tell you all about it.",
+  description: "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+  ogDescription: "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
   ogImage: "https://wherearetheavocado.vercel.app/blohsh.webp",
   twitterCard: "summary_large_image",
 });
 </script>
 <template>
   <div>
-    <NuxtLayout>
-      <template #header>
-        <Header />
-      </template>
-      <template #about>
-        <About />
-      </template>
-    </NuxtLayout>
+    <NuxtPage />
   </div>
 </template>

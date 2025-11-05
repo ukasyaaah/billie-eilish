@@ -20,6 +20,11 @@
     />
     <p class="flex flex-col">
       WHEN WE ALL FALL ASLEEP, <span>WHERE DO WE GO?</span>
+      <UButton :ui="{
+        base: 'bg-white hover:bg-white font-sans w-fit mt-5',
+        label:' text-black'
+      }"
+      to="/tracklist" size="lg" variant="soft" label="Check Out the TrackList" />
     </p>
   </div>
 </template>
