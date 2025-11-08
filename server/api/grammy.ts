@@ -3,7 +3,7 @@ export default defineEventHandler((event) => {
     icon: "zondicons:trophy",
     title: "GRAMMY Awards and Nominations",
     description:
-      "Nuxt UI provides a comprehensive suite of components andutilities to help you build beautiful and accessible web applicationswith Vue and Nuxt.",
+      "Billie Eilish won Album Of The Year for When We All Fall Asleep, Where Do We Go?​ at the 62nd GRAMMY Awards. This was her first win in the Album Of The Year category and her fourth win of the night.",
     grammys: [
       {
         title: "Best Pop Solo Performance - Nominations",
