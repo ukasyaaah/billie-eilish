@@ -24,5 +24,5 @@
 }
 * {
   scrollbar-width: thin;
-  scrollbar-color: white black;
+  scrollbar-color: var(--color-primary) black;
 }
