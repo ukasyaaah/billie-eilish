@@ -14,7 +14,7 @@ const { data }: any = await useFetch("/api/track");
       variant="solid"
     />
     <UPageHeader
-      :ui="{ title: 'text-white ' }"
+      :ui="{ title: 'text-white md:text-6xl lg:text-7xl lg:my-4' }"
       class="selected-style text-center border-0"
       :title="data.header"
     />

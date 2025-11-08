@@ -13,11 +13,12 @@ const { data }: any = await useFetch("/api/about");
     >
       <NuxtImg
         src="/Billie210.webp"
-        width="320"
-        height="364"
+        width="420"
+        height="564"
         quality="100"
+        fit="cover"
         alt="WTPO"
-        class="w-full rounded-lg"
+        class="flex mx-auto rounded-lg"
       />
     </UPageCTA>
   </div>

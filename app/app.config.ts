@@ -1,7 +1,14 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: "black",
+      primary: "lime",
+    },
+    pageFeature: {
+      slots: {
+        root: "font-sans",
+        title: "text-primary",
+        description: "text-white",
+      },
     },
   },
 });

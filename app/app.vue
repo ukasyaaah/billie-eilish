@@ -10,7 +10,9 @@ useSeoMeta({
 </script>
 <template>
   <div>
-    <NuxtLoadingIndicator color="lime" />
-    <NuxtPage />
+    <u-app>
+      <NuxtLoadingIndicator color="lime" />
+      <NuxtPage />
+    </u-app>
   </div>
 </template>

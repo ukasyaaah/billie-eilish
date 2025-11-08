@@ -3,4 +3,5 @@
 <template>
   <Header />
   <About />
+  <Grammy/>
 </template>
