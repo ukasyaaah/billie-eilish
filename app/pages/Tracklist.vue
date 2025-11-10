@@ -15,7 +15,7 @@ const { data }: any = await useFetch("/api/track");
     />
     <UPageHeader
       :ui="{ title: 'text-white md:text-6xl lg:text-7xl lg:my-4' }"
-      class="selected-style text-center border-0"
+      class="text-center border-0"
       :title="data.header"
     />
     <UBlogPosts>

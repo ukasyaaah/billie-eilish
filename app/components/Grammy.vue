@@ -14,7 +14,7 @@ const { data } = await useFetch("/api/grammy");
       :features="data?.grammys"
       class="text-primary"
       :ui="{
-        root: 'flex mx-auto selected-style font-sans text-white',
+        root: 'flex mx-auto  font-sans text-white',
         body: 'flex flex-col justify-center items-center mx-auto',
         title: 'text-white',
         description: 'text-white',

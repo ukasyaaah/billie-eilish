@@ -12,15 +12,9 @@
   src: url("~/assets/font/Whenweallfallasleep-Regular.ttf") format("truetype");
 }
 
-.selected-style {
-  ::selection {
-    background-color: white;
-    color: black;
-  }
-}
 ::selection {
   color: white;
-  background-color: black;
+  background-color: var(--color-primary);
 }
 * {
   scrollbar-width: thin;
